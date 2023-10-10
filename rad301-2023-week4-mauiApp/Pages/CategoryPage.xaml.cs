@@ -10,13 +10,7 @@ public partial class CategoryPage : ContentPage
 		InitializeComponent();
 	}
 
-    public CategoryViewModel CategoryViewModel
-    {
-        get => default;
-        set
-        {
-        }
-    }
+    
 
     protected override void OnNavigatedTo(NavigatedToEventArgs args)
     {

@@ -27,7 +27,7 @@ namespace rad301_2023_week3_mauiApp.ViewModels
         ObservableCollection<Product> categoryProducts = new();
 
         [RelayCommand]
-        public async void Tap(Product product)
+        public async void Goto(Product product)
         {
             // Call the Patient sessions 
             await Shell.Current.GoToAsync(nameof(CategoryProductsPage),

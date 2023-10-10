@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="rad301_2023_week3_mauiApp.Pages.CategoryProductsPage"
+             x:Class="rad301_2023_week3_mauiApp.Pages.CategoryPage"
              xmlns:local="clr-namespace:rad301_2023_week3_mauiApp.ViewModels"
-             Title="CategoryProductsPage"
+             Title="Category Page"
              xmlns:data="clr-namespace:ProductModel;assembly=ProductModel"
              x:DataType="local:CategoryViewModel">
     <!--Data binding done code behind in constructor-->
     <VerticalStackLayout>
         <Label 
-            Text="Categoy Products for"
+            Text="Category Products for"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
