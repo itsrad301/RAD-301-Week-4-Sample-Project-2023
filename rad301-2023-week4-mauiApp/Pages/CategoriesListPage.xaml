@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rad301_2023_week3_mauiApp.Pages.CategoriesListPage"
+             xmlns:data="clr-namespace:ProductModel;assembly=ProductModel"
+             Title="Category List Page">
+    <!--Data binding done code behind in constructor-->
+    <VerticalStackLayout>
+        <CollectionView ItemsSource="{Binding Categories}"
+            SelectionMode="Single"
+            SelectionChanged="OnCollectionViewSelectionChanged"
+            Grid.Row="2"
+            Grid.ColumnSpan="2">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="data:Category">
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.RowSpan="2" 
+                   Source="goldstar.svg" 
+                   Aspect="AspectFill"
+                   HeightRequest="60" 
+                   WidthRequest="60" />
+                        <Label Grid.Column="1" 
+                   Text="{Binding Description}" 
+                   FontAttributes="Bold" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>

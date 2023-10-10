@@ -1,0 +1,8 @@
+﻿<maui:MauiWinUIApplication
+    x:Class="rad301_2023_week3_mauiApp.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:maui="using:Microsoft.Maui"
+    xmlns:local="using:rad301_2023_week3_mauiApp.WinUI">
+
+</maui:MauiWinUIApplication>

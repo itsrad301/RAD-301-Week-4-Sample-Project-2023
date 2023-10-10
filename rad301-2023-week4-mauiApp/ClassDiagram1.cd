@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="MainPage --&gt; CategoriesListPage --&gt; CategoryPage --&gt; CategoryProductsPage">
+    <Position X="4.781" Y="7.135" Height="0.417" Width="5.783" />
+  </Comment>
+  <Class Name="rad301_2023_week3_mauiApp.DataLayer.CategoryDataService" Collapsed="true">
+    <Position X="5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAABABAAAAABAAAAAAIAAAAAgAAAIAEAAA=</HashCode>
+      <FileName>DataLayer\CategoryDataService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="rad301_2023_week3_mauiApp.Pages.CategoriesListPage">
+    <Position X="1.25" Y="3.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\CategoriesListPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rad301_2023_week3_mauiApp.Pages.CategoryPage">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\CategoryPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CategoryViewModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="rad301_2023_week3_mauiApp.Pages.CategoryProductsPage">
+    <Position X="10" Y="3.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\CategoryProductsPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CategoryViewModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="rad301_2023_week3_mauiApp.ViewModels.CategoryViewModel" Collapsed="true">
+    <Position X="5.5" Y="2.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAEAAAAgAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\CategoryViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rad301_2023_week3_mauiApp.MainPage">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAABAAAgCAAAAAAAAAAAAAAAAQAEAA=</HashCode>
+      <FileName>MainPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MainViewModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="rad301_2023_week3_mauiApp.ViewModels.CategoriesListViewModel" Collapsed="true">
+    <Position X="1.25" Y="2.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>ViewModels\CategoriesListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rad301_2023_week3_mauiApp.ViewModels.MainViewModel" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAAAAAAgAAAAAAEAAAAQAAAAAAAAgAAAAACAAAA=</HashCode>
+      <FileName>ViewModels\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

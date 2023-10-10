@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rad301_2023_week3_mauiApp.Pages.CategoryPage"
+             xmlns:data="rad301_2023_week3_mauiApp.ViewModels"
+             Title="CategoryPage">
+    <!--Data binding done code behind in constructor-->
+    <VerticalStackLayout>
+        <Label 
+            Text="Categoy Products for"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label Text="{Binding CurrentCategory.Description}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" >
+        </Label>
+        <HorizontalStackLayout>
+        <Label Text="Number of Products in thsi category "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" >
+        </Label>
+            <Label Text="{Binding CurrentCategory.Products.Count}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" >
+        </Label>
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>
